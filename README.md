@@ -1,7 +1,7 @@
 # minimal terminal clock written in c
 
 
-![Alt text](https://imgur.com/a/PsVyuoi)
+![Alt text](https://i.imgur.com/0Qyx08q.png)
 
 
 ## Building
