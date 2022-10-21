@@ -64,6 +64,7 @@ int ctoi(char n);
 
 int main(int argc, char** argv)
 {
+    clearscr();
     #ifndef _WIN32
     system("tput civis"); //hide cursor
     signal(SIGINT, sigintHandler);
