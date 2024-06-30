@@ -78,7 +78,7 @@ int main(int argc, char** argv)
         now = time(NULL);
         tm = localtime(&now);
         int hours = tm->tm_hour, minutes = tm->tm_min, seconds = tm->tm_sec;
-        sprintf(stime, "%d:%d:%d", hours, minutes, seconds);
+        sprintf(stime, "%02d:%02d:%02d", hours, minutes, seconds);
         if (strcmp(stime, prevtime)) {
             updateclock(stime);
             strcpy(prevtime, stime);
