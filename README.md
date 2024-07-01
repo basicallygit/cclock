@@ -10,5 +10,3 @@ $ git clone https://github.com/basicallygit/cclock
 $ cd cclock
 $ make && sudo make install
 ```
-
-TODO: add extra 0's, 15:5:2 -> 15:05:02
